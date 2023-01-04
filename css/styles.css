@@ -14,7 +14,6 @@
 body {
     font-family: var(--primary-font);
     letter-spacing: 0,02em;
-
 }
 
 /*====================COMPONENTS====================*/
@@ -89,6 +88,7 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1,07;
+    text-align: center;
 
     /* color: #FFFFFF; */
 }
@@ -119,6 +119,27 @@ body {
 /*===================/BENEFITS====================*/
 
 /*====================WORK====================*/
-
+.work-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
 
 /*====================/WORK====================*/
+
+/*====================TEAM====================*/
+
+/*====================/TEAM====================*/
+
+/*====================FOOTER====================*/
+
+.down {
+    color: #E7E9FC;
+}
+
+/*====================/FOOTER====================*/
+
+
+/*====================PORTFOLIO.HTML====================*/
