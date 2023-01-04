@@ -143,3 +143,21 @@ body {
 
 
 /*====================PORTFOLIO.HTML====================*/
+
+.filter-btn {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #4D5AE5;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: #FFFFFF;
+    background: #404BBF;
+}
