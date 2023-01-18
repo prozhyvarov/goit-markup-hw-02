@@ -11,7 +11,7 @@
   --cloud-light-mode-color: #f4f4fd;
   --navy-blue-modal-overlay: #2e2f42;
   --grey-hero-image-background: #2e2f42;
-  --clean-white: #FFFFFF;
+  --clean-white: #ffffff;
 }
 
 .list {
@@ -44,101 +44,100 @@ body {
 }
 
 .logo-web {
-    color: #4D5AE5;
+  color: #4d5ae5;
 }
 
 .frequently-header {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 
-    color: var(--navy-blue-dark-color);
+  color: var(--navy-blue-dark-color);
 }
 
 .frequently-description {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
 
-    color: var(--slate-body-text-color);     
+  color: var(--slate-body-text-color);
 }
 
 .secondary-title {
-    font-size: 36px;
-    line-height: 1.11;
+  font-size: 36px;
+  line-height: 1.11;
 
-    text-align: center;
-    text-transform: capitalize;
+  text-align: center;
+  text-transform: capitalize;
 
-    color: var(--navy-blue-dark-color);
+  color: var(--navy-blue-dark-color);
 }
 
 /*=========================/COMPONENTS=========================*/
 
 /*=========================HEADER=========================*/
 .menu-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--navy-blue-dark-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--navy-blue-dark-color);
 }
 
 .menu-link:hover,
 .menu-link:focus {
-    color: var(--ocean-pressed-state-color);
+  color: var(--ocean-pressed-state-color);
 }
 
 .contact-mail,
 .contact-phone-number {
-    font-size: 16px;
-    font-style: normal;
-    line-height: 1.5;
-    color: var(--slate-body-text-color);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  color: var(--slate-body-text-color);
 }
 
 .contact-phone-number:hover,
 .contact-phone-number:focus {
-    color: var(--ocean-pressed-state-color);
+  color: var(--ocean-pressed-state-color);
 }
 
 .contact-mail:hover,
 .contact-mail:focus {
-    color: var(--ocean-pressed-state-color);
+  color: var(--ocean-pressed-state-color);
 }
 
 /*=========================/HEADER=========================*/
 
 /*=========================HERO=========================*/
 .hero {
-    background: var(--grey-hero-image-background);
+  background: var(--grey-hero-image-background);
 }
 .hero-title {
-    font-size: 56px;
-    line-height: 1.07;
+  font-size: 56px;
+  line-height: 1.07;
 
-    text-align: center;
-    letter-spacing: 0.02em;
+  text-align: center;
+  letter-spacing: 0.02em;
 
-    color: var(--clean-white);
+  color: var(--clean-white);
 }
 
 .modal-btn {
-    font-family: var(--primary-font);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 
-    color: var(--clean-white);
-    cursor: pointer;
+  color: var(--clean-white);
+  cursor: pointer;
 
-    background: var(--iris-primary-color);
+  background: var(--iris-primary-color);
 }
-
 
 .modal-btn:hover,
 .modal-btn:focus {
-    background: var(--ocean-pressed-state-color);
+  background: var(--ocean-pressed-state-color);
 }
 
 /*=========================/HERO=========================*/
@@ -154,7 +153,7 @@ body {
 /*=========================TEAM=========================*/
 
 .team-section {
-    background: var(--cloud-light-mode-color);
+  background: var(--cloud-light-mode-color);
 }
 
 /*=========================/TEAM=========================*/
@@ -162,42 +161,42 @@ body {
 /*=========================FOOTER=========================*/
 
 .footer-section {
-    background: var(--navy-blue-dark-color);
+  background: var(--navy-blue-dark-color);
 }
 
 .description-footer {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
 
-    color: var(--corn-flower-accent-color);
+  color: var(--corn-flower-accent-color);
 }
 
 .footer-logo {
-    color: var(--cloud-light-mode-color);
+  color: var(--cloud-light-mode-color);
 }
 /*=========================/FOOTER=========================*/
 
 /*=========================PORTFOLIO=========================*/
 
 .filter-btn {
-    font-family: var(--primary-font);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--iris-primary-color);
-    
-    text-align: center;
-    letter-spacing: 0.04em;
-    background: var(--cloud-light-mode-color);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--iris-primary-color);
 
-    cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.04em;
+  background: var(--cloud-light-mode-color);
+
+  cursor: pointer;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
-    color: var(--clean-white);
-    background: var(--ocean-pressed-state-color);
+  color: var(--clean-white);
+  background: var(--ocean-pressed-state-color);
 }
 
 /*=========================/PORTFOLIO=========================*/
